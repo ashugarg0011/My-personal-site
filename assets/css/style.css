@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #e0ebe8;
+  /* position: relative; */
+  padding-top: 200px;
+}
+
+.name-text {
+  width: 350px;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque Light";
+  src: url("font/BrandonGrotesque-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#designer {
+  color: #45b29a;
+  font-family: "Brandon Grotesque Light";
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: -15px;
+}
+
+.left-cloud {
+  position: absolute;
+  top: 400px;
+  left: 280px;
+}
+
+.right-cloud {
+  position: absolute;
+  top: 250px;
+  right: 280px;
+}
+
+.land {
+  margin-top: 100px;
+}
+
+.middle-container {
+  position: relative;
+  padding-top: 100px;
+  padding-right: 35%;
+  padding-left: 35%;
+  text-align: center;
+}
+
+/* Hiiiiiii */
+
+.img-me {
+  padding: 0 0 20px 0;
+  height: 150px;
+  width: 150px;
+}
+
+.hi {
+  color: #45b29a;
+  font-family: "Brandon Grotesque Light";
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.p-hi {
+  font-family: "Brandon Grotesque Light";
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.line1 {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: lightgrey;
+  border-width: 5px;
+  margin-top: 150px;
+  width: 12%;
+}
+
+/* What I can do */
+
+.can-do {
+  color: #1e836c;
+  font-family: "Brandon Grotesque Light";
+  font-weight: bold;
+  font-size: 3.2rem;
+  padding: 80px;
+}
+
+/* Design-container */
+
+.fig {
+  display: inline-block;
+  width: 283.33px;
+  position: absolute;
+  top: 900px;
+  left: 320px;
+}
+
+.fig-me-img {
+  height: 150px;
+  width: 150px;
+}
+
+.what-design {
+  display: inline-block;
+  position: absolute;
+  top: 850px;
+  margin-right: 350px;
+  margin-left: -50px;
+  text-align: left;
+}
+
+.h2-design {
+  color: #45b29a;
+  font-family: "Brandon Grotesque Light";
+  font-weight: bold;
+  font-size: 1.9em;
+}
+
+.p-design {
+  font-family: "Brandon Grotesque Light";
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* Develop-container */
+
+.develop {
+  display: inline-block;
+  position: absolute;
+  top: 1100px;
+  left: 380px;
+  width: 440px;
+  text-align: left;
+}
+
+.h2-develop {
+  color: #45b29a;
+  font-family: "Brandon Grotesque Light";
+  font-weight: bolder;
+  font-size: 1.9em;
+}
+
+.p-develop {
+  font-family: "Brandon Grotesque Light";
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.fig-dev {
+  display: inline-block;
+  position: absolute;
+  top: 1150px;
+  right: 320px;
+}
+
+.fig-dev-img {
+  height: 155px;
+  width: 180px;
+}
+
+.dev-block {
+  height: 220.85px;
+}
+
+.line2 {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: lightgrey;
+  border-width: 5px;
+  margin-top: 230px;
+  width: 12%;
+  margin-bottom: 80px;
+}
+
+.help {
+  color: #1e836c;
+  font-family: "Brandon Grotesque Light";
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+
+.freelance {
+  color: #45b29a;
+  font-family: "Brandon Grotesque Light";
+  font-weight: bolder;
+  font-size: 1.9em;
+}
+
+.have-project {
+  font-family: "Brandon Grotesque Light";
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-left: 28%;
+  padding-right: 28%;
+}
+
+footer {
+  background: #c5ded7;
+  padding: 50px 0 70px 0;
+}
+
+.footer-row a {
+  display: block;
+  text-decoration: none;
+  color: #45b29a;
+  font-size: 1.2em;
+  font-family: "Brandon Grotesque Light";
+  font-weight: bold;
+}
+
+.block1 {
+  position: absolute;
+  display: inline-block;
+  left: 30%;
+}
+
+.block2 {
+  position: absolute;
+  display: inline-block;
+  left: 48%;
+}
+
+.block3 {
+  position: absolute;
+  display: inline-block;
+  right: 30%;
+}
+
+.contact-div {
+  width: 160px;
+  height: 35px;
+  background-color: #45b29a;
+  position: absolute;
+  margin-left: -80px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.mail-icon {
+  margin: 10px;
+  position: absolute;
+  left: 5px;
+}
+
+.contact {
+  text-decoration: none;
+  color: #1e836c;
+  font-size: 1.2em;
+  font-family: "Brandon Grotesque Light";
+  font-weight: bold;
+  position: absolute;
+  left: 54px;
+  top: 4px;
+}
+
+.contact-body {
+  background-color: #c5ded7;
+  font-family: "Brandon Grotesque Light";
+}
+
+.contact-box {
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+form {
+  margin: 35px;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+}
+
+.btn {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #45b29a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
